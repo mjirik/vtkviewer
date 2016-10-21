@@ -48,14 +48,8 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['dist',  'docs', 'tests*']),
-
-    # List run-time dependencies here.  These will be installed by pip when
-    # your project is installed. For an analysis of "install_requires" vs pip's
-    # requirements files see:
-    # https://packaging.python.org/en/latest/technical.html#install-requires-vs-requirements-files
-    install_requires=['vtk'],
-    # 'SimpleITK'],  # Removed becaouse of errors when pip is installing
+    # packages=find_packages(exclude=['dist',  'docs', 'tests*']),
+    py_modules=['vtkviewer'],
     dependency_links=[],
 
     # If there are data files included in your packages that need to be
