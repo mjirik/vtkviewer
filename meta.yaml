@@ -41,6 +41,7 @@ requirements:
     - python
     - conda-build
     - anaconda-client
+    - vtk
 
 test:
   # Python imports
