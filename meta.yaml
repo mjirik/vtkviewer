@@ -39,8 +39,6 @@ requirements:
 
   run:
     - python
-    - conda-build
-    - anaconda-client
     - vtk
 
 test:
